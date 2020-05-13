@@ -1,0 +1,16 @@
+/*
+ * Complete the vowelsAndConsonants function.
+ * Print your output using 'console.log()'.
+ */
+function vowelsAndConsonants(s){
+    let vow = ["a", "e", "i", "o", "u"];
+    for (let v of s){
+        if (vow.includes(v))
+        console.log(v)
+         }
+    for (let v of s){
+        if(!vow.includes(v)){
+            console.log(v)
+        }
+    }
+}  
