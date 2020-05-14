@@ -1,0 +1,11 @@
+function reverseString(s) {
+    try{
+        var a = s.split("");
+        var b = a.reverseString();
+        var c= a.join("")
+        return c
+    }
+    catch(e){
+        
+    }    
+}
