@@ -1,0 +1,14 @@
+function getSecondLargest(nums) {
+    // Complete the function
+     var max=nums[0]
+     var smax=0;
+    for (let i of nums){
+        if (i>max){
+            smax=max
+            max=i;
+        }
+        if (i > smax & i < max)
+        smax=i
+ }
+    return smax
+}
