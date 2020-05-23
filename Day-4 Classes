@@ -1,0 +1,12 @@
+class Polygon{
+    constructor(l){
+        this.l=l;
+    }
+    perimeter(){
+        var sum= 0;
+        for(var i=0; i< this.l.length;i++){
+            sum = sum + this.l[i];
+        }
+        return sum
+    }
+}
