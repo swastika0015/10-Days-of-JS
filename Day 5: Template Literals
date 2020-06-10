@@ -1,0 +1,6 @@
+function sides(literals, ...expressions) {
+    var [a,p] = expressions;
+    var res = [];
+    var root = Math.sqrt((p*p) -(16*a));
+    return [(p+root)/4,(p-root)/4];  
+}
