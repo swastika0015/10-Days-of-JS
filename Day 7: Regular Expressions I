@@ -1,0 +1,6 @@
+function regexVar() {
+
+    let re = /\b([aeiou])[a-z]+\1\b/i;
+    
+    return re;
+}
