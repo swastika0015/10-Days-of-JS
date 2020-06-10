@@ -1,0 +1,10 @@
+function getMaxLessThanK(n,k){
+    var x=0;
+    for (let i=n;i>0;i--){
+        for(let j=i-1;j>0;j--){
+            if ((i&j) < k && (i&j) > x){
+                x=(i&j);
+            }
+        }
+    }return x;
+}
